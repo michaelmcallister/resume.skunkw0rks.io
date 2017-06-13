@@ -1,0 +1,143 @@
+baseurl = "https://resume.skunkw0rks.io"
+languageCode = "en-us"
+title = "Resume"
+theme = "hugo-orbit-theme"
+enableEmoji = true
+
+disableKinds = ["RSS", "404", "sitemap"]
+
+[author]
+    name = "Michael McAllister"
+
+[params]
+    description = "Resume/CV Theme for Michael McAllister"
+    author = "Michael McAllister"
+    styles = "styles.css"
+
+  [params.profile]
+    name = "Michael McAllister"
+    tagline = "Will turn :coffee: into code"
+    avatar = "default.png"
+
+  [params.contact]
+    enable = true
+
+    [[params.contact.list]]
+      class = "email"
+      icon = "fa-envelope"
+      url = "mailto: michael@skunkw0rks.io"
+      title = "michael@skunkw0rks.io"
+
+    [[params.contact.list]]
+      class = "phone"
+      icon = "fa-phone"
+      url = "tel:+61410206745"
+      title = "+61410206745"
+
+    [[params.contact.list]]
+      class = "website"
+      icon = "fa-globe"
+      url = "https://blog.skunkw0rks.io"
+      title = "blog.skunkw0rks.io"
+
+    [[params.contact.list]]
+      class = "linkedin"
+      icon = "fa-linkedin"
+      url = "https://linkedin.com/in/mpmcallister"
+      title = "mpmcallister"
+
+    [[params.contact.list]]
+      class = "github"
+      icon = "fa-github"
+      url = "https://github.com/michaelmcallister"
+      title = "michaelmcallister"
+ 
+    [[params.contact.list]]
+      class = "stackoverflow"
+      icon = "fa-stack-overflow "
+      url = "https://stackoverflow.com/users/7119105/michael"
+      title = "Michael"
+
+  [params.education]
+    enable = true
+    title = "Education"
+
+    [[params.education.list]]
+      degree = "Graduate Certificate in Networking and Systems Administration"
+      college = "Charles Sturt University"
+      dates = "2016 - 2017"
+
+  [params.language]
+    enable = true
+    title = "Languages"
+
+    [[params.language.list]]
+      language = "Golang"
+      level = "Hobby"
+
+    [[params.language.list]]
+      language = "Python"
+      level = "Professional"
+
+    [[params.language.list]]
+      language = "Java"
+      level = "Professional"
+
+  [params.summary]
+    enable = true
+    icon = "fa-user"
+    title = "Career Profile"
+    summary = "I'm cloud nerd passionate about all things Linux and automation. Outside of work, you'll find me tinkering with my lab at home trying out the latest technologies, or checking out the local music scene. <br><br> I frequent a few meetups in Sydney, if you see me come and say hi!"
+
+  [params.experiences]
+    enable = true
+    icon = "fa-briefcase"
+    title = "Experiences"
+
+    [[params.jobs.list]]
+      position = "System Engineer"
+      dates = "July 2016 - Present"
+      company = "Amazon Web Services"
+      details = "Design, build and operate Amazon RDS - the largest database fleet in the world. <br><br> Designing internal solutions that scale with our customers to make sure we eliminate manual tedious process."
+
+    [[params.jobs.list]]
+      position = "Cloud Support Engineer"
+      dates = "April 2015 - July 2016"
+      company = "Amazon Web Services"
+      details = "Accredited Subject Matter Expert (SME) for EC2 Linux, architecting solutions for customers starting from small startups all the way to some of the world's largest enterprises. Work with customers both internal, and external to dive deep and troubleshoot complex problems and issues.<br><br> Facilitate regular new hire training sessions for Elastic Block Store (EBS), as well as in depth advanced training for existing staff to be more effective Engineers"
+
+    [[params.jobs.list]]
+      position = "Systems Administrator"
+      dates = "April 2013 - March 2015"
+      company = "iiNet"
+      details = "Part of a 24/7 on call rotation for Australia's #2 ISP <br><br> Design, implementation and operational support for core technologies such as LDAP, E-mail, DNS and Web Servers that power the Internet for over 1 million active services."
+
+    [[params.jobs.list]]
+      position = "Network Administrator"
+      dates = "August 2012 - August 2013"
+      company = "iiNet"
+      details = "Proactive monitoring of the availability and performance of iiNet’s key systems and applications, including: <ul><li>F5 BIG-IP load balancers</li><li>*NIX Servers (Linux, Solaris)</li><li>NetApp Storage Appliances</li><li>Juniper Networking Equipment</li>"
+
+  [params.projects]
+    enable = true
+    icon = "fa-archive"
+    title = "Projects"
+    intro = "Side projects to keep my skills sharp in my spare time"
+
+    [[params.projects.list]]
+      title = "syslog2cloudwatch"
+      url = "https://github.com/michaelmcallister/syslog2cloudwatch"
+      tagline = "*Extremely* fast and simple Syslog reciever written in Go that proxies logs straight to AWS CloudWatch"
+
+    [[params.projects.list]]
+      title = "gput"
+      url = "https://github.com/michaelmcallister/gput"
+      tagline = "A utility that accepts `stdin` and uploads it straight to S3 - great for binary streams such as ZFS snapshots"
+
+    [[params.projects.list]]
+      title = "dotfiles"
+      url = "https://github.com/michaelmcallister/dotfiles"
+      tagline = "a collection of my personal configuration files - updated reguarly"
+
+  [params.footer]
+    copyright = "Michael McAllister"
